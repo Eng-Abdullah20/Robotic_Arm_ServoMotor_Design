@@ -1,10 +1,12 @@
 # Robotic_Arm_ServoMotor_Design
 Robotic Arm Servo Motors Technical Description 
 1.	Hardware Description
+
 In this task, the circuit has been designed to be composed of a 5V DC voltage source and a microcontroller (Arduino Uno) with five servo motors. Each motor is controlled by a separate 10KΩ potentiometer to allow each part of the robotic arm to move apart from the other parts. The five motors were connected to the digital pins from one to five, respectively. Furthermore, the potentiometers were connected to the analog pins A5 to A1. 
 
 
 2.	Programing Description
+
 In order to have each servo motor to be controlled separately by one potentiometer the microcontroller had to be programmed to take the input from the potentiometer and move the servo motor accordingly. First the connected servo motors and potentiometers have to be defined as follows. 
 #include <Servo.h>
 
